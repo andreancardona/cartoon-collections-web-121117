@@ -13,9 +13,9 @@ end
 def long_planeteer_calls(element)
   element.each do |called|
     if called.length > 4
-      true
+      return true
     elsif called.length < 4
-      false
+      return false
 end
 end
 
