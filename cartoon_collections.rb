@@ -5,8 +5,8 @@ def roll_call_dwarves(array)
   end
 
 def summon_captain_planet(arr)
-      arr.collect do |element|
-      element.capitalize + "!"
+      arr.collect do |elements|
+      elements.capitalize + "!"
     end
 end
 
