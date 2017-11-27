@@ -13,11 +13,11 @@ end
 def long_planeteer_calls(element)
   element.each do | called |
     if called.length > 4
-      return true 
-    else 
-      return false 
+      return true
+    else
+      return false
 end
-end 
+end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
